@@ -20,6 +20,3 @@ def test_size_browser(size_browser):
     browser.element('[name="q"]').type(';lkkljsdfjlkj lfdjlshkjdfh fkjsghlkfjs').press_enter()
     browser.element('[id="result-stats"]').should(have.text('Результатов: примерно 0'))
     print('По запросу ;lkkljsdfjlkj lfdjlshkjdfh fkjsghlkfjs ничего не найдено')
-
-test_google()
-test_size_browser()
