@@ -8,5 +8,6 @@ def size_browser():
     browser.config.height = 1200
     yield
 
+
     browser.quit()
 
