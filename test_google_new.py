@@ -3,7 +3,7 @@ import selene
 from selene import browser, be, have
 
 
-@pytest.fixture(scope='function', autouse=True)
+@pytest.fixture(scope='function')
 def size_browser():
     browser.config.window_width = 1200
     browser.config.height = 1200
